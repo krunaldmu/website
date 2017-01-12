@@ -4,8 +4,9 @@ body {
 
 h1 {
     color: black;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 p {
-    color: blue;
+    color: black;
 }
