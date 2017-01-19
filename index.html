@@ -6,13 +6,31 @@
 <link rel="shortcut icon" href="http://diu.gov.in/imagesnew/dddnhtourism-logo-new.png">
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script>
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 </head>
 
 <body>
+<div id="smooth_scroll"
 <nav class="nav nav--red">
   <ul class="nav__list">
     <li class="nav__list__item"><a href="">Home</a></li>
-    <li class="nav__list__item"><a href="">Gallery</a></li>
+    <li class="nav__list__item"><a href="#test">Gallery</a></li>
     <li class="nav__list__item"><a href="">Attractions</a></li>
     <li class="nav__list__item"><a href="">History</a></li>
     <li class="nav__list__item"><a href="">Contact</a></li>
@@ -23,15 +41,17 @@
       <h2><span>Visit Diu</span></h2>
 </div>
 <hr>
-<div align="center"
+<div align="center">
   <div class = "welcome">
-    <h3>
+    <h3 id="test">
         Welcome to Diu
     </h3>
       <p3>
          Located near the port of Veraval, Diu is a small island which was earlier a Portuguese colony, and is now guarded by beaches all around. Diu takes up most popularity given the ample number of beaches, along Gujarat's southern coast such as the Nagoa beach, but has a lot more to offer too. 
       </p3>
+            <arrow><a href="#smooth_scroll">↑</a></arrow>
   </div>
+</div>
 </div>
 </body>
 
