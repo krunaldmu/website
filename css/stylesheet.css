@@ -65,6 +65,22 @@
    text-align:center;
 }
 
+.w3-animate-fading {
+    animation: fading 5s infinite;
+}
+
+@keyframes fading{
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 h2 { 
     position: absolute;
     margin: auto;
@@ -124,6 +140,5 @@ p3 {
     }
     p3{
         font-size: 2.0vh;
-        
     }
 }
