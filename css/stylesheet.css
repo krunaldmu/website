@@ -87,6 +87,7 @@ div.welcome {
     width:768px;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid red;
 }
 
 h3 {
@@ -101,4 +102,28 @@ p3 {
   color: #555;
   text-align: center;
   line-height: 1.6;
+}
+
+@media only screen and (max-width: 500px) {
+    h2 span {
+        font-size: 5.0vh;
+        text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    }
+    h3 {
+        font-size: 3.0vh;
+        display: inline-block;
+        height:auto;
+        margin: auto;
+       }
+    div.welcome {
+       /*background: black;*/
+       width:100%;
+       margin: 0 auto;
+       text-align: center;
+       border: 1px solid red;
+    }
+    p3{
+        font-size: 2.0vh;
+        
+    }
 }
