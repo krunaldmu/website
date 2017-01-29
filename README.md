@@ -1,6 +1,10 @@
-# De Montfort University
+## De Montfort University
 
-# Visit DIU Website Uni Project
+# **Visit DIU Website University Project**
 
-# Front End Web Development
+## Front End Web Development
+
+## Mobile First Mockup
+
+![Mobile Desgin](/img/mobile-mockup.png)
 
