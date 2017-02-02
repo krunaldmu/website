@@ -8,22 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
-<script>
-    $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="js/javascript.js"></script>
 </head>
 
 <body>
@@ -39,28 +24,13 @@
         <li class="nav__list__item"><a href="">Contact</a></li>
       </ul>
     </nav>
-  <div class="image">
-        <img class="slides w3-animate-fading" src="img/img.jpg" alt="Sunset Point"/> 
-        <img class="slides w3-animate-fading" src="img/img1.jpg" alt="Sunset Point 2"/> 
-        <img class="slides w3-animate-fading" src="img/img2.jpg" alt="Sunset Point 3"/> 
-        <h2><span>Visit Diu</span></h2>
- <script>
-          var myIndex = 0;
-          carousel();
-
-          function carousel() {
-              var i;
-              var x = document.getElementsByClassName("slides");
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-              }
-              myIndex++;
-              if (myIndex > x.length) {myIndex = 1}    
-              x[myIndex-1].style.display = "block";  
-              setTimeout(carousel, 9000);
-          }
-  </script>
-  </div>
+    <div class="image">
+          <img class="slides w3-animate-fading" src="img/img.jpg" alt="Sunset Point"/> 
+          <img class="slides w3-animate-fading" src="img/img1.jpg" alt="Sunset Point 2"/> 
+          <img class="slides w3-animate-fading" src="img/img2.jpg" alt="Sunset Point 3"/> 
+          <h2><span>Visit Diu</span></h2>
+          <script src="js/javascript.js"></script>
+    </div>
     <hr>
         <div class = "welcome">
           <h3> Welcome to Diu</h3>
@@ -71,43 +41,43 @@
             <a href="#smooth_scroll">↑</a>
           <!--</div>-->
         </div>
-    <hr>
+     <hr>
     
-    <div class = "welcome">
-      <h3> Attractions </h3>
-    </div>
-    <div class="wrap">
-    
-    <div class="box">
-      <div class="boxInner">
-        <img src="img/fort.jpg" alt="Diu Fort" />
+      <div class = "welcome">
+        <h3> Attractions </h3>
       </div>
-    </div>
-    <div class="box">
-      <div class="boxInner">
-        <img src="img/museum.jpg" alt="Diu Museum" />
+      <div class="wrap">
+      
+      <div class="box">
+        <div class="boxInner">
+          <img src="img/fort.jpg" alt="Diu Fort" />
+        </div>
       </div>
-    </div>
-    <div class="box">
-      <div class="boxInner">
-        <img src="img/panikotha.jpg" alt="Diu Panikotha" />
+      <div class="box">
+        <div class="boxInner">
+          <img src="img/museum.jpg" alt="Diu Museum" />
+        </div>
       </div>
-    </div>
-    <div class="box">
-      <div class="boxInner">
-        <img src="img/church.jpg" alt="Diu Church" />
+      <div class="box">
+        <div class="boxInner">
+          <img src="img/panikotha.jpg" alt="Diu Panikotha" />
+        </div>
       </div>
-    </div>
-        <div class="box">
-      <div class="boxInner">
-        <img src="img/naida.jpg" alt="Diu Naida Caves" />
+      <div class="box">
+        <div class="boxInner">
+          <img src="img/church.jpg" alt="Diu Church" />
+        </div>
       </div>
-    </div>
-    </div>
-    <hr>
-    <footer>
+          <div class="box">
+        <div class="boxInner">
+          <img src="img/naida.jpg" alt="Diu Naida Caves" />
+        </div>
+      </div>
+      </div>
+      <hr>
+  <footer>
       <p> Website by Krunal Vomexchandra </p>
-    </footer>
+  </footer>
 </body>
 
 </html>
