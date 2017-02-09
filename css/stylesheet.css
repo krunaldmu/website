@@ -146,6 +146,28 @@ p {
         padding-bottom: 40%;
         /*border: 1px solid red;*/
       }
+
+    div.wrapper {
+            border: 1px solid blue;
+    }
+
+    section#image1{
+            border: 1px solid blue;
+        }
+
+        div.heading1 {
+            border: 1px solid blue;
+        }
+
+        div#map1 {
+            border: 1px solid blue;
+            /*width: 90%;*/
+            margin: auto;
+        }
+
+        article#article{
+            border: 1px solid blue;
+        }
 }
 
 @media only screen and (max-width: 500px) {
@@ -173,6 +195,29 @@ p {
             width: 100%;
             padding-bottom: 70%;
         }
+
+        div.wrapper, heading1 {
+            border: 1px solid green;
+        }
+        div.heading1 {
+            border: 1px solid green;
+        }
+
+        div#map1 {
+            border: 1px solid green;
+            /*width: 90%;*/
+            margin: auto;
+        }
+
+        section#image1{
+            border: 1px solid green;
+        }
+
+        article#article{
+            border: 1px solid green;
+        }
+
+        
     }
 
     h4 {
@@ -228,61 +273,68 @@ p {
     }
 
     figcaption {
-    text-align: center;
-    border: 1px solid red;
-    padding: 5%;
-    font: 15px 'Lato', sans-serif;
-    }
+        text-align: center;
+        border: 1px solid red;
+        padding: 5%;
+        font: 15px 'Lato', sans-serif;
+        }
 
     .top {
         font-size: 150%;       
     }
 
     #map {
-  width: 100%;
-  height: 300px;
-  margin-top: 100px;
-  margin-bottom: 70px;
-  border: 1px solid red;
-}
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+        margin-bottom: 70px;
+        border: 1px solid red;
+        }
 
-.heading1{
+    .heading1{
+        border: 1px solid red;
+        padding: 5%;
+        height: 20px;
+        text-align: center;
+    }
+
+    .wrapper { 
+    border : 1px solid red;
+    display: flex;    /* Magic begins */
+    flex-wrap: row wrap;  /* Allow multiple lines */
+    }
+
+    #wrapper > div {
+    flex: 1;          /* Distribute space equally among the flex items */
+    min-width: 300px; /* But force them to be at least300px wide */
+    }
+
+    #image1 {
     border: 1px solid red;
-    padding: 5%;
-    height: 20px;
-    text-align: center;
-}
+    height: 500px;
+    width: 50%;
+    margin-left: 2%;
+    }
+    #article { 
+    border: 1px solid red;
+    height: 500px;
+    width: 50%;
+    margin-right: 2%;
+    /*float: right;*/
+    }
 
-.wrapper { 
-  border : 1px solid red;
-  display: flex;    /* Magic begins */
-  flex-wrap: row wrap;  /* Allow multiple lines */
-}
+        #map1 {
+    /*width: 100em;*/
+    height: 300px;
+    /*margin-top: 100px;*/
+    /*margin-bottom: 70px;*/
+    border: 1px solid red;
+    margin: auto;
+    }
 
-#wrapper > div {
-  flex: 1;          /* Distribute space equally among the flex items */
-  min-width: 300px; /* But force them to be at least300px wide */
-}
-
-#image1 {
-  border: 1px solid red;
-  height: 500px;
-  width: 50%;
-  margin-left: 2%;
-}
-#article { 
-  border: 1px solid red;
-  height: 500px;
-  width: 50%;
-  margin-right: 2%;
-  /*float: right;*/
-}
-
-    #map1 {
-  width: 75%;
-  height: 300px;
-  /*margin-top: 100px;*/
-  /*margin-bottom: 70px;*/
-  border: 1px solid red;
-  margin-left: 12%;
-}
+    #weather{
+        float: right;
+        /*padding: 1%;
+        margin: auto;*/
+        border: 1px solid red;
+    }
