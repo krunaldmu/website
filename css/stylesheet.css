@@ -96,7 +96,7 @@ div.welcome {
     /*border: 1px solid red;*/
 }
 
-h3 {
+h4 {
   font: 400 50px/0.8 'Lato', sans-serif;
   color: #555;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
@@ -289,6 +289,9 @@ p {
         margin-top: 100px;
         margin-bottom: 70px;
         border: 1px solid red;
+        /*frameborder="0" 
+        style="border:0" 
+        allowfullscreen*/
         }
 
     .heading1{
