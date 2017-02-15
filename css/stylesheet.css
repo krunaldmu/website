@@ -157,6 +157,7 @@ p {
 
         div.heading1 {
             border: 1px solid blue;
+            font-size: 2em;
         }
 
         div#map1 {
@@ -201,6 +202,7 @@ p {
         }
         div.heading1 {
             border: 1px solid green;
+            font-size: 2em;
         }
 
         div#map1 {
@@ -294,8 +296,12 @@ p {
     .heading1{
         border: 1px solid red;
         padding: 5%;
-        height: 20px;
-        text-align: center;
+        height: auto;
+        margin: auto;
+        width: auto;
+        font: 400 50px/0.8 'Lato', sans-serif;
+        color: #555;
+        text-align: center
     }
 
     .wrapper { 
