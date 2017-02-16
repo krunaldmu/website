@@ -6,8 +6,12 @@
 
 ## Mobile First Mockup
 
-![Mobile Desgin](/img/mobile-mockup.png)
+![Mobile Design](/img/mobile-mockup.png)
 
 ## Tablet First Mockup
 
-![Tablet Desgin](/img/tablet-mockup.png)
+![Tablet Design](/img/tablet-mockup.png)
+
+## Desktop Website Mockup
+
+![Desktop Design](/img/desktop-mockup.png)
