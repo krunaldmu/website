@@ -140,6 +140,7 @@ p {
     }
     p{
         font-size: 2.0vh;
+        /*border: 1px solid blue;*/
     }
       div.box {
         width: 50%;
