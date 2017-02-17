@@ -35,3 +35,12 @@ function closeNav() {
               x[myIndex-1].style.display = "block";  
               setTimeout(carousel, 9000);
           }
+// script for google map api
+    function myMap() {
+          var myCenter = new google.maps.LatLng(20.72,70.94);
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {center: myCenter, zoom: 13};
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          var marker = new google.maps.Marker({position:myCenter});
+          marker.setMap(map);
+        }
