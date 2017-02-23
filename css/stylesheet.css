@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 /*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
 
-.nav__list {
+/*.nav__list {
     margin: 0;
     padding: 0;
     display:inline;
@@ -46,6 +46,45 @@
     .nav__list > .nav__list__item a {
         display: inline-block;
     }
+}*/
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc; 
+    margin-left: 0px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+  display: inline-block;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #555;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #e5e5e5;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+    display: none;
 }
 
 .image { 
@@ -120,6 +159,14 @@ p {
   line-height: 1.6;
 }
 
+@media screen and (max-width:768px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
 @media only screen and (max-width: 768px){
     h2 span {
         font-size: 10.0vh;
@@ -186,6 +233,27 @@ p {
             height: auto;
             border: 1px solid blue;
         }
+
+ul.topnav.responsive {
+    position: relative;
+}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+  }
+
+  ul.topnav {
+    width: 100%;
+    text-align: left;
+}
 }
 
 @media only screen and (max-width: 500px) {
