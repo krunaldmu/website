@@ -375,3 +375,7 @@ p {
     height: 500px;
     width: 50%;
 }
+
+div li img {
+    border: 1px solid black;
+}
