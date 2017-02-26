@@ -254,6 +254,12 @@ ul.topnav.responsive {
     width: 100%;
     text-align: left;
 }
+
+        /*div ul li img{
+            width: 100%;
+            margin: auto;
+            margin-left: -10%;
+        }*/
 }
 
 @media only screen and (max-width: 500px) {
@@ -310,6 +316,12 @@ ul.topnav.responsive {
             width: 100%;
             height: auto;
             border: 1px solid green;
+        }
+
+        div ul li img{
+            width: 100%;
+            margin: auto;
+            margin-left: -1%;
         }
     }
 
@@ -447,5 +459,5 @@ ul.topnav.responsive {
 div li img{
     width: 80%;
     padding: 1%;
-    margin-left: 8%;
+    margin-left: 9%;
 }
