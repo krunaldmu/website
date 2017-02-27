@@ -59,6 +59,7 @@ ul.topnav {
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc; 
     margin-left: 0px;
+    margin-bottom: 8px;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     text-align: center;
@@ -164,7 +165,7 @@ p {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
-    display: inline-block;
+    display: block;
   }
 }
 
@@ -244,7 +245,7 @@ ul.topnav.responsive {
     top: 0;
   }
   ul.topnav.responsive li {
-    float: none;
+    /*float: none;*/
     display: inline;
   }
   ul.topnav.responsive li a {
