@@ -260,6 +260,10 @@ ul.topnav.responsive {
             margin: auto;
             margin-left: -10%;
         }*/
+              header .logo {
+        width: 8%;
+        height: 8%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -323,6 +327,11 @@ ul.topnav.responsive {
             margin: auto;
             margin-left: -1%;
         }
+
+      header .logo {
+        width: 10%;
+        height: 10%;
+    }
     }
 
         h4 {
@@ -332,8 +341,8 @@ ul.topnav.responsive {
         }
 
     .logo {
-        width: 5%;
-        height: 5%;
+        width: 6%;
+        height: 6%;
     }
 
     .container {
