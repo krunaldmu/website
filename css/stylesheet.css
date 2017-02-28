@@ -49,6 +49,14 @@
 }*/
 
 /* Remove margins and padding from the list, and add a black background color */
+header{
+    border: 1px solid red;
+}
+
+body{
+    border: 1px solid red;
+}
+
 ul.topnav {
     width: 100%;
     display: inline-block;
@@ -81,7 +89,7 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-    background-color: #e5e5e5;
+    text-decoration: none;
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
@@ -435,10 +443,9 @@ ul.topnav.responsive {
     }
 
     #map {
-        width: 100%;
         height: 300px;
-        margin-top: 5%;
-        margin-bottom: 70px;
+        /*margin-top: 5%;
+        margin-bottom: 70px;*/
         border: 1px solid red;
         }
 
@@ -507,7 +514,7 @@ div li img{
     margin-left: 9%;
 }
 
-a#link {
+a {
   text-decoration: none;
   color: #555;
   transition: transform .3s ease-out;
@@ -515,7 +522,7 @@ a#link {
   /*transition: all ease-in-out .3s;*/
 }
 
-a:hover#link {
+a:hover {
   transform: translate(0, -5px);
   transition: transform .3s ease-out;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
@@ -526,11 +533,11 @@ footer {
     left: 0;
     bottom: 0;
     height: 100%;
-    width: 100%;
     border: 1px solid red;
     background-color: #f2f2f2;
     font-family: "Lato", sans-serif;
     text-align: center;
+    font-size: 14px;
 }
 
 social {
@@ -538,20 +545,4 @@ social {
   position:absolute;
   top:50%;
   left:50%;
-  -ms-transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-}
-
-a#social {
-  text-align:center;
-  position: relative;
-  display: inline-block;
-  width:40px;
-  height:28px;
-  padding-top:12px;
-  margin:0 2px;
-  text-decoration: none;
-  color: #555;
-  border: 1px solid red;
 }
