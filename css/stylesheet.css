@@ -343,8 +343,8 @@ ul.topnav.responsive {
         }
 
     .logo {
-        width: 6%;
-        height: 6%;
+        width: 5%;
+        height: 5%;
     }
 
     .container {
@@ -362,7 +362,7 @@ ul.topnav.responsive {
       float: left;
       position: relative;
       width: 20%;
-      height: 100px;
+      height: 50px;
       padding-bottom: 20%;
     }
     .boxInner {
@@ -371,8 +371,9 @@ ul.topnav.responsive {
       right: 10px;
       top: 10px;
       bottom: 10px;
+      margin: auto;
       overflow: hidden;
-      /*border: 1px solid red;*/
+      border: 1px solid red;
     }
     
     .boxInner img {
@@ -394,7 +395,7 @@ ul.topnav.responsive {
     h5 {
         text-align: center;
         /*border: 1px solid red;*/
-        padding: 5%;
+        padding: 5px;
         font: 18px 'Lato', sans-serif;
         text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
         }
