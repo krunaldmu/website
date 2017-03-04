@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 /**{margin:0px;padding:0px;}*/
 header {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: block;
     height: auto;
     width: auto;
@@ -20,7 +20,7 @@ header {
 }
 
 body {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     /*margin: auto;*/
     /*width: 90%;*/
     /*padding: 10px;*/
@@ -180,7 +180,7 @@ p {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     p {
@@ -195,19 +195,19 @@ p {
     }
 
     div.wrapper {
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
         display: block;
         flex-direction: row;
         flex-wrap: nowrap;
     }
     
     div.heading1 {
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
         font-size: 2em;
     }
 
     div#map1 {
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
         /*width: 90%;*/
         margin: auto;
     }
@@ -216,7 +216,7 @@ p {
         flex: 1;
         width: 100%;
         height: auto;
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
     }
 
     ul.topnav.responsive {
@@ -269,7 +269,7 @@ p {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
     }
 
     p {
@@ -281,18 +281,18 @@ p {
         padding-bottom: 70%;
     }
 
-    div.wrapper,
+    /*div.wrapper,
     heading1 {
         border: 1px solid green;
-    }
+    }*/
 
     div.heading1 {
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         font-size: 2em;
     }
 
     div#map1 {
-        border: 1px solid green;
+        /*border: 1px solid green;*/
         /*width: 90%;*/
         
         margin: auto;
@@ -303,7 +303,7 @@ p {
         flex: 1;
         width: 100%;
         height: auto;
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     div ul li img {
@@ -328,8 +328,9 @@ h4 {
     width: 5%;
     height: 5%;
     margin: 0;
+    margin-bottom: 5px;
     padding: 0;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     display: block;
 }
 
@@ -361,7 +362,7 @@ h4 {
     bottom: 10px;
     margin: auto;
     overflow: hidden;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .boxInner img {
@@ -401,11 +402,11 @@ h5 {
 
 #map {
     height: 300px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .heading1 {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 2%;
     height: auto;
     margin: auto;
@@ -416,7 +417,7 @@ h5 {
 }
 
 .wrapper {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     /* Magic begins */
     flex-wrap: row wrap;
@@ -430,14 +431,14 @@ h5 {
     /* But force them to be at least300px wide */
 }
 #image1 {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 500px;
     width: 50%;
     margin-left: 2%;
 }
 
 #article {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 500px;
     width: 50%;
     margin-right: 2%;
@@ -446,50 +447,54 @@ h5 {
 
 #googleMap1 {
     height: 300px;
-    border: 1px solid red;
     margin: auto;
+    padding: 0%;
+    margin-top: 10px;
 }
 
 #googleMap2 {
     height: 300px;
-    border: 1px solid red;
     margin: auto;
+    padding: 0%;
+    margin-top: 10px;
 }
 
 #googleMap3 {
     height: 300px;
-    border: 1px solid red;
     margin: auto;
+    padding: 0%;
+    margin-top: 10px
 }
 
 #googleMap4 {
     height: 300px;
-    border: 1px solid red;
     margin: auto;
+    padding: 0%;
+    margin-top: 10px   
 }
 
 #googleMap5 {
     height: 300px;
-    border: 1px solid red;
     margin: auto;
+    padding: 0%;
+    margin-top: 10px
 }
 
 #weather {
     float: right;
-    border: 1px solid red;
 }
 
 .column {
     flex-basis: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: auto;
     width: 50%;
 }
 
 div li img {
-    width: 80%;
-    padding: 1%;
-    margin-left: 9%;
+    width: 100%;
+    padding: 0%;
+    margin: auto;
 }
 
 a {
@@ -511,7 +516,7 @@ footer {
     left: 0;
     bottom: 0;
     height: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: #f2f2f2;
     font-family: "Lato", sans-serif;
     text-align: center;
@@ -523,7 +528,7 @@ div.social {
     position: absolute;
     top: 50%;
     left: 50%;*/
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     margin-top: 5px;
     letter-spacing: 2px;
 }
