@@ -518,9 +518,12 @@ footer {
     font-size: 14px;
 }
 
-social {
-    display: inline-block;
+div.social {
+    /*display: inline-block;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%;*/
+    border: 1px solid green;
+    margin-top: 5px;
+    letter-spacing: 2px;
 }
