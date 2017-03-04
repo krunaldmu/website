@@ -444,7 +444,31 @@ h5 {
     /*float: right;*/
 }
 
-#map1 {
+#googleMap1 {
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#googleMap2 {
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#googleMap3 {
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#googleMap4 {
+    height: 300px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#googleMap5 {
     height: 300px;
     border: 1px solid red;
     margin: auto;
