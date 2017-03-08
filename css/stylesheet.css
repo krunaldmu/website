@@ -20,12 +20,7 @@ header {
 }
 
 body {
-    /*border: 1px solid red;*/
-    /*margin: auto;*/
-    /*width: 90%;*/
-    /*padding: 10px;*/
-    /*margin: 0;
-    padding: 0;*/
+    background-color: #fff;
 }
 
 ul.topnav {
@@ -63,21 +58,21 @@ ul.topnav li a:hover {
 ul.topnav li.icon {
     display: none;
 }
+
 .image {
     position: relative;
     /*width: 100%;  for IE 6 */
-    
     height: auto;
     margin: auto;
     text-align: center;
     /*border: 1px solid red;*/
 }
+
 .w3-animate-fading {
     animation: fading 5s infinite;
     width: 100%;
     height: 100%;
     /*border: 1px solid red;*/
-    
     text-align: center;
 }
 
@@ -92,6 +87,7 @@ ul.topnav li.icon {
         opacity: 0;
     }
 }
+
 h1 {
     font: 400 25px/0.8 'Great Vibes', Helvetica, sans-serif;
 }
@@ -115,7 +111,6 @@ h2 span {
 
 div.welcome {
     /*background: black;*/
-    
     width: 768px;
     margin: 0 auto;
     text-align: center;
@@ -149,10 +144,12 @@ p {
     padding-bottom: 12px;
 }
 
+/*Responsive Design for Tablet Devices */
 @media only screen and (max-width: 768px) {
     ul.topnav li:not(:first-child) {
         display: none;
     }
+
     ul.topnav li.icon {
         float: right;
         display: block;
@@ -231,7 +228,6 @@ p {
 
     ul.topnav.responsive li {
         /*float: none;*/
-        
         display: inline;
     }
 
@@ -250,6 +246,7 @@ p {
     }
 }
 
+/*Responsive Design for Mobile Devices */
 @media only screen and (max-width: 500px) {
     h2 span {
         font-size: 5.0vh;
@@ -294,7 +291,6 @@ p {
     div#map1 {
         /*border: 1px solid green;*/
         /*width: 90%;*/
-        
         margin: auto;
         height: 250px;
     }
@@ -364,6 +360,7 @@ h4 {
     overflow: hidden;
     border: 1px solid #555;
     border-radius: 5px;
+    border-style: solid;
 }
 
 .boxInner img {
@@ -417,12 +414,11 @@ h5 {
     text-align: center
 }
 
+/*Flex Box Properties */
 .wrapper {
     /*border: 1px solid red;*/
     display: flex;
-    /* Magic begins */
     flex-wrap: row wrap;
-    /* Allow multiple lines */
 }
 
 #wrapper > div {
@@ -431,6 +427,7 @@ h5 {
     min-width: 300px;
     /* But force them to be at least300px wide */
 }
+
 #image1 {
     /*border: 1px solid red;*/
     height: 500px;
