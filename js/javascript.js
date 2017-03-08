@@ -1,10 +1,3 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
 // script for smooth mouse scrolling //
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
@@ -108,4 +101,12 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
