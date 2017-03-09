@@ -6,6 +6,10 @@ The aim of this project is to design and develop a website based on the chosen t
 
 ## CTEC3905-2017-Y Front-End Web Development
 
+Website Developed by Krunal Vomexchandra
+
+# Wireframe
+
 ## Visit Diu Site Map
 
 ![Site Map](/img/site-map.png)
@@ -95,12 +99,12 @@ Another issue identified during the testing was the navigation bar for the websi
 
 ## HTML5 Validator
 
-The website has been validated using the W3C's Markup Validation Service .
+The website has been validated using the W3C's Markup Validation Service.
 
 ![HTML5 Validation](/img/validation.png)
 
 ## Conclusion
 
-The front-end web development module has been one of the most enjoyable module for me throughout the year.  It has been interesting to learn about new web technologies such as HTML5, CSS3 and JavaScript’s frameworks.  Also, it’s quite positive to known about current techniques used in today’s websites mainly responsive web design and mobile first approach which I had little or no knowledge about.
+The front-end web development module has been one of the most enjoyable module for me throughout the year.  It has been interesting to learn about new web technologies such as HTML5, CSS3 and JavaScript’s frameworks.  Also, it’s quite positive to known about current techniques used in today’s websites mainly responsive web design and mobile first approach which I had little or no knowledge about, that will be useful for future development.
 
 Special thanks to Dave and Fania for putting their efforts towards making this module both exciting and gratifying.
