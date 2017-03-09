@@ -103,7 +103,7 @@ Another issue identified during the testing was the navigation bar for the websi
 
 ## Mobile Devices
 
-![Mobile Page](/img/mobile-index.png)
+![Mobile Page](/img/phone-index.png)
 
 ## Tablet Devices
 
