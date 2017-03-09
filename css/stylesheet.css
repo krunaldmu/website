@@ -106,7 +106,7 @@ h2 span {
     text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
 }
 
-div.center {
+div.welcome {
     width: 768px;
     margin: 0 auto;
     text-align: center;
@@ -166,7 +166,7 @@ p {
         transform: translateX(-25px)
     }
 
-    div.center {
+    div.welcome {
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -243,7 +243,7 @@ p {
         height: auto;
     }
 
-    div.center {
+    div.welcome {
         width: 100%;
         margin: 0 auto;
         text-align: center;

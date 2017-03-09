@@ -99,6 +99,20 @@ Another issue identified during the testing was the navigation bar for the websi
 
 [View Code](https://github.com/krunaldmu/website/commit/a7dda048e9c592fb348084f62eac1729fbccfd29)
 
+# Final Website
+
+## Mobile Devices
+
+![Mobile Home Page](/img/mobile-index.png)
+
+## Tablet Devices
+
+![Tablet Home Page](/img/tablet-index.png)
+
+## Laptop/Desktop
+
+![Home Page](/img/laptopdesktop-index.png)
+
 ## HTML5 Validator
 
 The website has been validated using the W3C's Markup Validation Service.
