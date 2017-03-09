@@ -33,20 +33,44 @@
 ![Desktop Design Pages](/img/desktop-mockup2.png)
 
 ## Main Web Technologies Used
--HTML5
--CSS3
--JS 
+1. HTML5
+2. CSS3
+3. JS 
+
+## List of Code Adapted 
+
+### Responsive Navbar
+
+[View Code](https://www.w3schools.com/css/css_navbar.asp)
+
+### Welcome Image Slideshow
+
+[View Code](https://www.w3schools.com/w3css/w3css_slideshow.asp)
+
+### Light Slider
+
+[View Code](https://github.com/sachinchoolur/lightslider)
 
 ## User Testing
 
+### Issue 1 - Title Hyperlink
+
 While conducting the user testing, one issue was identified which was to do with the site navigation for the attraction section. I did notice that several users clicked on the title of the places assuming it might link them to selected page. Hence, taking this in account, the title was hyper linked to that specific page.
+
+![Hyperlink Resolved](/img/hyperlink.png)
 
 [View Code](https://github.com/krunaldmu/website/commit/4c5a9e042d7b7450f6e6a7066d556d3a19ebf2d1)
 
-![Hyperlink Resolved](/img/hyperlink.png)
+### Issue 2 - Responsive Navbar
 
 Another issue identified during the testing was the navigation bar for the website was missing the hamburger menu for tablet and mobile devices webpage. As a result, the overall navigation bar was redesigned from scratch to implement the feature.
 
 ![NavBar Resolved](/img/navbar.png)
 
 [View Code](https://github.com/krunaldmu/website/commit/a7dda048e9c592fb348084f62eac1729fbccfd29)
+
+## Conclusion
+
+The front-end web development module has been one of the most enjoyable module for me throughout the year.  It has been interesting to learn about new web technologies such as HTML5, CSS3 and JavaScript’s frameworks.  Also, it’s quite positive to known about current techniques used in today’s websites mainly responsive web design and mobile first approach which I had little or no knowledge about.
+
+Special thanks to Dave and Fania for putting their efforts towards making this module both exciting and gratifying.
