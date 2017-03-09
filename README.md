@@ -51,6 +51,14 @@
 
 [View Code](https://github.com/sachinchoolur/lightslider)
 
+### Smooth Page Scrolling in jQuery
+
+[View Code](http://codepen.io/IamManchanda/pen/VPZMba)
+
+### Flex Box
+
+[View Code](https://codepen.io/enxaneta/full/adLPwv)
+
 ## User Testing
 
 ### Issue 1 - Title Hyperlink
