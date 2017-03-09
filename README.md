@@ -38,6 +38,8 @@ Website Developed by Krunal Vomexchandra
 
 ![Desktop Design Pages](/img/desktop-mockup2.png)
 
+# Development
+
 ## Main Web Technologies Used
 1. HTML5
 2. CSS3
@@ -49,7 +51,7 @@ Website Developed by Krunal Vomexchandra
 2. Visual Studio Code
 3. GitHub
 
-## List of Code Adapted 
+## List of Third Party Code Adapted 
 
 ### Responsive Navbar
 
@@ -103,8 +105,12 @@ The website has been validated using the W3C's Markup Validation Service.
 
 ![HTML5 Validation](/img/validation.png)
 
+## Further Work
+
+The simple weather js was one of the feature that was supposed to be implemented into the website to display current weather for the location. Unfortunately, due to some error it had to be dropped down and may be reconsidered in the future.
+
 ## Conclusion
 
-The front-end web development module has been one of the most enjoyable module for me throughout the year.  It has been interesting to learn about new web technologies such as HTML5, CSS3 and JavaScript’s frameworks.  Also, it’s quite positive to known about current techniques used in today’s websites mainly responsive web design and mobile first approach which I had little or no knowledge about, that will be useful for future development.
+The front-end web development module has been one of the most enjoyable module for me throughout the year.  It has been interesting to learn about new web technologies such as HTML5, CSS3 and JavaScript’s frameworks.  Also, it’s quite positive to known about current techniques used in today’s websites mainly responsive web design and mobile first approach which I had little or no knowledge about which will be useful for future web development.
 
 Special thanks to Dave and Fania for putting their efforts towards making this module both exciting and gratifying.
