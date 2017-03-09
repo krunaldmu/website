@@ -16,27 +16,15 @@ Website Developed by Krunal Vomexchandra
 
 ## Mobile First Mockup
 
-![Mobile Design](/img/mobile-mockup.png)
+![Mobile Design](/img/mobile-mockup-1.png)
 
 ## Mobile First Mockup Pages
 
-![Mobile Design Pages](/img/mobile-mockup2.png)
-
-## Tablet First Mockup
-
-![Tablet Design](/img/tablet-mockup.png)
-
-## Tablet First Mockup Pages
-
-![Tablet Design Pages](/img/tablet-mockup2.png)
+![Tablet Design](/img/tablet-mockup-2.png)
 
 ## Desktop Website Mockup
 
-![Desktop Design](/img/desktop-mockup.png)
-
-## Desktop Website Mockup Pages
-
-![Desktop Design Pages](/img/desktop-mockup2.png)
+![Desktop Design](/img/desktop-mockup-3.png)
 
 # Development
 
