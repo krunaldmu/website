@@ -103,15 +103,17 @@ Another issue identified during the testing was the navigation bar for the websi
 
 ## Mobile Devices
 
-![Mobile Home Page](/img/mobile-index.png)
+![Mobile Page](/img/mobile-index.png)
 
 ## Tablet Devices
 
-![Tablet Home Page](/img/tablet-index.png)
+![Tablet Page](/img/tablet-index.png)
 
 ## Laptop/Desktop
 
 ![Home Page](/img/laptopdesktop-index.png)
+
+![Place Page](/img/laptopdesktop2-index.png)
 
 ## HTML5 Validator
 
