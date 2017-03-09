@@ -2,6 +2,8 @@
 
 # **Visit DIU Website University Project**
 
+The aim of this project is to design and develop a website based on the chosen topic using the front-end web design languages such as HTML5, CSS3 and JS.
+
 ## CTEC3905-2017-Y Front-End Web Development
 
 ## Visit Diu Site Map
@@ -35,29 +37,43 @@
 ## Main Web Technologies Used
 1. HTML5
 2. CSS3
-3. JS 
+3. JavaScript
+
+## Design and Development Platform Used
+
+1. Balsamiq Mockups
+2. Visual Studio Code
+3. GitHub
 
 ## List of Code Adapted 
 
 ### Responsive Navbar
 
-[View Code](https://www.w3schools.com/css/css_navbar.asp)
+[View](https://www.w3schools.com/css/css_navbar.asp)
 
 ### Welcome Image Slideshow
 
-[View Code](https://www.w3schools.com/w3css/w3css_slideshow.asp)
+[View](https://www.w3schools.com/w3css/w3css_slideshow.asp)
 
 ### Light Slider
 
-[View Code](https://github.com/sachinchoolur/lightslider)
+[View](https://github.com/sachinchoolur/lightslider)
 
 ### Smooth Page Scrolling in jQuery
 
-[View Code](http://codepen.io/IamManchanda/pen/VPZMba)
+[View](http://codepen.io/IamManchanda/pen/VPZMba)
 
 ### Flex Box
 
-[View Code](https://codepen.io/enxaneta/full/adLPwv)
+[View](https://codepen.io/enxaneta/full/adLPwv)
+
+### Font Awesome
+
+[View](http://fontawesome.io/)
+
+### Google Fonts
+
+[View](https://fonts.google.com/)
 
 ## User Testing
 
@@ -76,6 +92,12 @@ Another issue identified during the testing was the navigation bar for the websi
 ![NavBar Resolved](/img/navbar.png)
 
 [View Code](https://github.com/krunaldmu/website/commit/a7dda048e9c592fb348084f62eac1729fbccfd29)
+
+## HTML5 Validator
+
+The website has been validated using the W3C's Markup Validation Service .
+
+![HTML5 Validation](/img/validation.png)
 
 ## Conclusion
 

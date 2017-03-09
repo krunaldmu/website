@@ -44,7 +44,7 @@ function myMap() {
     });
     marker.setMap(map);
 }
-
+//script for lightslider image slideshow
 $(document).ready(function() {
     $("#lightSlider").lightSlider({
         item: 1,

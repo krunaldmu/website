@@ -1,18 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-/**{margin:0px;padding:0px;}*/
+
 header {
-    /*border: 1px solid red;*/
     display: block;
     height: auto;
     width: auto;
-    /*margin: 0;
-    padding: 0;*/
 }
 
 .logolink {
     text-decoration: none;
     display: block;
-    /*transition: all ease-in-out .3s;*/
 }
 
 .logolink:hover {
@@ -38,10 +34,12 @@ ul.topnav {
     font-family: "Lato", sans-serif;
     text-align: center;
 }
+
 /* Float the list items side by side */
 ul.topnav li {
     display: inline-block;
 }
+
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
@@ -50,10 +48,12 @@ ul.topnav li a {
     text-decoration: none;
     transition: 0.3s;
 }
+
 /* Change background color of links on hover */
 ul.topnav li a:hover {
     text-decoration: none;
 }
+
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
     display: none;
@@ -61,18 +61,15 @@ ul.topnav li.icon {
 
 .image {
     position: relative;
-    /*width: 100%;  for IE 6 */
     height: auto;
     margin: auto;
     text-align: center;
-    /*border: 1px solid red;*/
 }
 
 .w3-animate-fading {
     animation: fading 5s infinite;
     width: 100%;
     height: 100%;
-    /*border: 1px solid red;*/
     text-align: center;
 }
 
@@ -110,17 +107,14 @@ h2 span {
 }
 
 div.welcome {
-    /*background: black;*/
     width: 768px;
     margin: 0 auto;
     text-align: center;
-    /*border: 1px solid red;*/
 }
 
 h3 {
     font: 400 50px/0.8 'Lato', sans-serif;
     color: #555;
-    /*text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
     text-align: center;
     position: relative;
 }
@@ -164,7 +158,6 @@ p {
         font-size: 4.0vh;
         display: inline-block;
         height: auto;
-        /*margin: auto;*/
     }
 
     h3:before {
@@ -177,35 +170,28 @@ p {
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        /*border: 1px solid green;*/
     }
 
     p {
         font-size: 2.0vh;
-        /*border: 1px solid blue;*/
     }
 
     div.box {
         width: 50%;
         padding-bottom: 40%;
-        /*border: 1px solid red;*/
     }
 
     div.wrapper {
-        /*border: 1px solid blue;*/
         display: block;
         flex-direction: row;
         flex-wrap: nowrap;
     }
     
     div.heading1 {
-        /*border: 1px solid blue;*/
         font-size: 2em;
     }
 
     div#map1 {
-        /*border: 1px solid blue;*/
-        /*width: 90%;*/
         margin: auto;
     }
     
@@ -213,7 +199,6 @@ p {
         flex: 1;
         width: 100%;
         height: auto;
-        /*border: 1px solid blue;*/
     }
 
     ul.topnav.responsive {
@@ -227,7 +212,6 @@ p {
     }
 
     ul.topnav.responsive li {
-        /*float: none;*/
         display: inline;
     }
 
@@ -257,16 +241,12 @@ p {
         font-size: 3.5vh;
         display: inline-block;
         height: auto;
-        /*margin: auto;*/
     }
 
     div.welcome {
-        /*background: black;*/
-        
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        /*border: 1px solid blue;*/
     }
 
     p {
@@ -278,19 +258,11 @@ p {
         padding-bottom: 70%;
     }
 
-    /*div.wrapper,
-    heading1 {
-        border: 1px solid green;
-    }*/
-
     div.heading1 {
-        /*border: 1px solid green;*/
         font-size: 2em;
     }
 
     div#map1 {
-        /*border: 1px solid green;*/
-        /*width: 90%;*/
         margin: auto;
         height: 250px;
     }
@@ -299,7 +271,6 @@ p {
         flex: 1;
         width: 100%;
         height: auto;
-        /*border: 1px solid green;*/
     }
 
     div ul li img {
@@ -326,7 +297,6 @@ h4 {
     margin: 0;
     margin-bottom: 5px;
     padding: 0;
-    /*border: 1px solid green;*/
     display: block;
 }
 
@@ -334,7 +304,6 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     width: 768px;
-    /*border: 1px solid red;*/
 }
 
 .wrap {
@@ -400,11 +369,9 @@ h5 {
 
 #map {
     height: 300px;
-    /*border: 1px solid red;*/
 }
 
 .heading1 {
-    /*border: 1px solid red;*/
     padding: 2%;
     height: auto;
     margin: auto;
@@ -416,7 +383,6 @@ h5 {
 
 /*Flex Box Properties */
 .wrapper {
-    /*border: 1px solid red;*/
     display: flex;
     flex-wrap: row wrap;
 }
@@ -429,18 +395,15 @@ h5 {
 }
 
 #image1 {
-    /*border: 1px solid red;*/
     height: 500px;
     width: 50%;
     margin-left: 2%;
 }
 
 #article {
-    /*border: 1px solid red;*/
     height: 500px;
     width: 50%;
     margin-right: 2%;
-    /*float: right;*/
 }
 
 #googleMap1 {
@@ -484,7 +447,6 @@ h5 {
 
 .column {
     flex-basis: 100%;
-    /*border: 1px solid red;*/
     height: auto;
     width: 50%;
 }
@@ -500,7 +462,6 @@ a {
     color: #555;
     transition: transform .3s ease-out;
     display: block;
-    /*transition: all ease-in-out .3s;*/
 }
 
 a:hover {
@@ -514,7 +475,6 @@ footer {
     left: 0;
     bottom: 0;
     height: 100%;
-    /*border: 1px solid red;*/
     background-color: #f2f2f2;
     font-family: "Lato", sans-serif;
     text-align: center;
@@ -522,11 +482,6 @@ footer {
 }
 
 div.social {
-    /*display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;*/
-    /*border: 1px solid green;*/
     margin-top: 5px;
     letter-spacing: 2px;
 }
